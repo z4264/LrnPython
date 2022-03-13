@@ -13,7 +13,7 @@ def greet(who_to_greet):
     return greeting
 
 
-print(greet("world"))
+# print(greet("world"))
 
 r = requests.get("http://www.bekencorp.com")
 print(r.status_code)
@@ -35,4 +35,3 @@ with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
 
     msg = f'Subject: {subject}\n\n{body}'
     smtp.sendmail(my_usrname, 'pengfei@bekencorp.com',msg)
-
