@@ -1,3 +1,5 @@
 .DS_Store
 .vscode
 secrets.py
+survey_results_public.csv
+survey_results_schema.csv
